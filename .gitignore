@@ -1,4 +1,5 @@
 certs/
+conf.d/
 htpasswd/
 vhost.d/
 web/
