@@ -4,7 +4,7 @@ services:
     image: jwilder/nginx-proxy
     volumes:
       - ./certs:/etc/nginx/certs
-      - ./my_proxy.conf:/etc/nginx/conf.d/my_proxy.conf
+      - ./conf.d:/etc/nginx/conf.d
       - ./web:/usr/share/nginx/html
       - ./vhost.d:/etc/nginx/vhost.d
       - ./htpasswd:/etc/nginx/htpasswd
